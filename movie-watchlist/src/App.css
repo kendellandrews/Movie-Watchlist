@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  /* background-color: #41454f; */
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 41vmin;
   pointer-events: none;
+  /* background-color: #41454f; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #41454f; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cover-img {
+  height: 400px;
+}
+
+.movie-card {
+  float: left;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.btn-container {
+  /* background-color: #41454f; */
+  box-shadow: 5px 5px 5px ;
+}
+/* 
+.page {
+  background-color: #41454f;
+} */
+
+.watchlist {
+  /* background-color: #41454f; */
+  display: flex;
+  /* scrollbar-darkshadow-color: dimgray; */
+}
+
+.main-watch {
+  background-color: #41454f;
+  
+
+}
+
+.main-movie {
+  background-color: #41454f;
+
+}
+
+.main {
+  display: flex;
 }
